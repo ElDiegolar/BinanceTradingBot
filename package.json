@@ -1,0 +1,40 @@
+{
+  "name": "trading-bot-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix tradingbot-fe-v1",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@plotex/render-image": "^1.0.15",
+    "axios": "^0.21.1",
+    "bottleneck": "^2.19.5",
+    "ccxt": "^1.44.8",
+    "concurrently": "^6.0.0",
+    "data-forge-fs": "^0.0.9",
+    "data-forge-indicators": "^0.2.7",
+    "data-forge-plot": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "grademark": "^0.2.9",
+    "lodash": "^4.17.21",
+    "numpy": "^0.0.1",
+    "prettier": "^2.2.1",
+    "render-image": "^1.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "server": "^1.0.32",
+    "tulind": "^0.8.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
